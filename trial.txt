@@ -1,0 +1,7 @@
+a.sh
+b.sh
+c
+c.txt
+ex 5
+f.awk
+trial.txt

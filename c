@@ -1,0 +1,11 @@
+RollNo Name 		Dept 		City 		cgpa year
+1	shruthi 	cse 		salem		9.1	3
+2	priya		cse		tirunelveli 	9.1 	2
+3 	shrustiga	aids 		salem 		9.7	3
+4 	hema		dme		trichy		8.8	1
+5 	janani 	it		gobi		9.6	4
+6	malar		mts		gobi		9.1	3
+7	kowsalya	ece		perundurai 	9.7	1
+8	rhowina	bsc		thoothukudi	8.9	1
+9	abhi		mech		ambasamudram	8.5	2
+10	akshala 	eee		erode		7.4	3	

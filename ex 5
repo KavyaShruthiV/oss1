@@ -1,0 +1,43 @@
+1. Print all the student details
+	{print}
+
+2. Print student roll number and dept
+	{print $1,$3}
+
+3. Print the students details who are belonging to "CSE" dept
+	{if($3=="cse")print}
+
+4. Print the 2nd year student cgpa
+	{if($6==2)print $5}
+
+5. Print the student details who are coming from salem and belongs to "cse" dept
+	{if($4=="salem" && $3=="cse")print}
+
+6. Print the student details who are belonging to "it" or "ece" dept
+	{if($3=="it" || $3=="ece")print}
+
+7. Print the student name whose cgpa is greater than 90
+	{if($5>9)print $2}
+
+8. Print the sum of cgpa of all the students
+	BEGIN{sum=0}
+	{sum=sum+$5}
+	END{print "sum is "sum}
+
+9. Count the number of students in "cse" dept
+	BEGIN{count=0}
+	{
+	if($3=="cse")
+		count=count+1
+	}
+	END{print "count of cse students is: "count}
+	
+10. Print the average cgpa of "cse" dept students
+	BEGIN{count=0;sum=0}
+	{
+	if($3=="cse"){
+		count=count+1
+		sum=sum+$5
+		}
+	}
+	END{print "Average cgpa of cse students is: "sum/count}
